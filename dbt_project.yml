@@ -34,5 +34,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   postgers_dbt:
     # Applies to all files under models/example/
-    staging:
-      materialized: view
+    inventory:
+      materialized: table
